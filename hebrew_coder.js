@@ -84,6 +84,9 @@ function codeUrl(word){
             case 'ץ':
                 coded += '%F5';
                 break;
+            case ' ':
+                coded += '+'
+                break;
             default:
                 coded += word[i];
                 break;
